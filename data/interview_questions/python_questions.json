@@ -1,0 +1,135 @@
+{
+  "questions": [
+    {
+      "id": "py_001",
+      "question": "What are Python decorators and how do they work?",
+      "category": "technical",
+      "difficulty": "medium",
+      "topics": ["Python", "Functions", "Advanced", "Decorators"],
+      "expected_topics": [
+        "Function wrappers",
+        "@ syntax",
+        "Use cases",
+        "Common examples"
+      ]
+    },
+    {
+      "id": "py_002",
+      "question": "Explain the difference between lists and tuples in Python.",
+      "category": "technical",
+      "difficulty": "easy",
+      "topics": ["Python", "Data Structures", "Basics"],
+      "expected_topics": [
+        "Mutability",
+        "Performance",
+        "Use cases",
+        "Syntax differences"
+      ]
+    },
+    {
+      "id": "py_003",
+      "question": "How does Python's Global Interpreter Lock (GIL) affect multi-threading?",
+      "category": "technical",
+      "difficulty": "hard",
+      "topics": ["Python", "Concurrency", "Threading", "Performance"],
+      "expected_topics": [
+        "GIL explanation",
+        "Impact on CPU-bound tasks",
+        "Alternatives (multiprocessing)",
+        "When GIL matters"
+      ]
+    },
+    {
+      "id": "py_004",
+      "question": "What is the difference between `async/await` and traditional threading in Python?",
+      "category": "technical",
+      "difficulty": "medium",
+      "topics": ["Python", "Async", "Concurrency", "asyncio"],
+      "expected_topics": [
+        "Async/await basics",
+        "Event loop",
+        "I/O-bound vs CPU-bound",
+        "When to use each"
+      ]
+    },
+    {
+      "id": "py_005",
+      "question": "Explain Python's context managers and the `with` statement.",
+      "category": "technical",
+      "difficulty": "medium",
+      "topics": ["Python", "Context Managers", "Resources"],
+      "expected_topics": [
+        "__enter__ and __exit__ methods",
+        "Resource management",
+        "Common use cases",
+        "Creating custom context managers"
+      ]
+    },
+    {
+      "id": "py_006",
+      "question": "How do you handle exceptions in Python? What are best practices?",
+      "category": "technical",
+      "difficulty": "easy",
+      "topics": ["Python", "Error Handling", "Exceptions"],
+      "expected_topics": [
+        "try/except blocks",
+        "Exception hierarchy",
+        "finally and else clauses",
+        "Creating custom exceptions"
+      ]
+    },
+    {
+      "id": "py_007",
+      "question": "What are Python generators and when would you use them?",
+      "category": "technical",
+      "difficulty": "medium",
+      "topics": ["Python", "Generators", "Memory", "Iteration"],
+      "expected_topics": [
+        "yield keyword",
+        "Memory efficiency",
+        "Lazy evaluation",
+        "Generator expressions"
+      ]
+    },
+    {
+      "id": "py_008",
+      "question": "Explain the concept of duck typing in Python.",
+      "category": "technical",
+      "difficulty": "medium",
+      "topics": ["Python", "Type System", "OOP"],
+      "expected_topics": [
+        "Dynamic typing",
+        "Protocol-based behavior",
+        "EAFP vs LBYL",
+        "Examples"
+      ]
+    },
+    {
+      "id": "py_009",
+      "question": "How do you optimize Python code for better performance?",
+      "category": "technical",
+      "difficulty": "hard",
+      "topics": ["Python", "Performance", "Optimization"],
+      "expected_topics": [
+        "Profiling tools",
+        "Common bottlenecks",
+        "NumPy for numeric operations",
+        "Cython or PyPy",
+        "Algorithm optimization"
+      ]
+    },
+    {
+      "id": "py_010",
+      "question": "What is the difference between `@staticmethod` and `@classmethod` in Python?",
+      "category": "technical",
+      "difficulty": "medium",
+      "topics": ["Python", "OOP", "Methods", "Decorators"],
+      "expected_topics": [
+        "Static method definition",
+        "Class method definition",
+        "Use cases for each",
+        "Access to class/instance"
+      ]
+    }
+  ]
+}
